@@ -1,0 +1,76 @@
+body{
+    background: #618264;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+}
+
+.heading-text{
+    color: #618264;
+    background-color: #D0E7D2;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.addTask, .onProgres, .finish{
+    background-color: #FFF3DA;
+    border-radius: 5px;
+}
+
+.addTask .card-footer > input[type="text"]{
+    color: #374259;
+    background: none;
+    outline: none;
+    border : none;
+    border-bottom: 2px solid #545B77;
+    font-size: 17px
+}
+
+.addTask .card-footer button{
+    background: #545B77;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+
+}
+
+
+li{
+    list-style: none;
+    width: 100%;
+    background: #EF9595;
+    padding: 10px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 17px;
+    border-radius: 3px;
+}
+
+.onProgres li{
+    background: #ECEE81;
+}
+.finish li{
+    background: #82A0D8;
+}
+
+li button{
+    float: right;
+    padding: 5px;
+    font-size: 15px;
+    line-height: 14px;
+    margin-right: 10px;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+
